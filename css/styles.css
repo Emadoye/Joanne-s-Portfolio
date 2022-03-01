@@ -7,6 +7,10 @@
 
 body {
   font-family: var(--default-font-family);
+  border: 1px solid;
+  border-radius: 10px;
+  
+
 }
 
 h1,
@@ -75,7 +79,9 @@ h2 {
 
 .project-description {
   padding: 120px 60px;
+  
 }
+
 
 @media (max-width: 900px) {
   h1 {
